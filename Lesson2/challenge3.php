@@ -31,6 +31,7 @@
     ['id' => 1, 'job_title' => 'PHP Developer', 'company' => 'IBM', 'email' => 'john@ibm.com', 'contact_no' =>  '09168457456', 'skills' => ['PHP', 'MySQL', 'JavaScript']], //0
     ['id' => 2, 'job_title' => 'Web Designer', 'company' => 'AWS', 'email' => 'jane@aws.com', 'contact_no' =>  '09175597456', 'skills' => ['PhotoShop', 'Illustrator', 'CSS']], ///1
     ['id' => 3, 'job_title' => 'Network Admin', 'company' => 'CISCO', 'email' => 'James@cisco.com', 'contact_no' =>  '09202224575', 'skills' => ['Database', 'CyberSecurity', 'Networking']], // 2
+];   
 
     array_push($job, ['id' => 4, 'job_title' => 'Graphic Artist', 'company' => 'ADOBE', 'email' => 'princess@adobe.com ', 'contact_no' =>  '09208456544', 'skills' => ['Photoshop', 'Bootstrap', 'Flutter']]);
 
@@ -39,7 +40,7 @@
 
     $thirdJob = $job[2]; 
     echo $thirdJob['skills'][0] . ' and ' . $thirdJob['skills'][2];
-];   
+
    
 
 
